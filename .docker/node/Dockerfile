@@ -8,7 +8,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Get all the code needed to run the app
-COPY . /usr/src/app
+COPY ./ /usr/src/app
 
 
 # Expose the port the app runs in
